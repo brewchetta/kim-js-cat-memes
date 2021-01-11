@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Fetch</title>
+
+    <!-- CSS & Styling -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <!-- External Scripts -->
+    <script defer src="scripts/index.js" charset="utf-8"></script>
+    <script defer src="scripts/cat-movement-handler.js" charset="utf-8"></script>
+
+
+  </head>
+  <body>
+
+    <!-- Form that may have a few errors at first... -->
+    <form id="new-cat-form">
+      <label for="cat-meme-name">Add A Cat Meme: </label><br>
+      <input id="text-field" name="cat-meme-url" type="text" placeholder="meme url goes heer">
+      <input id="text-field" name="cat-meme-alt-text" type="text" placeholder="cat alt text goes hear">
+      <input type="submit" value="Submit">
+    </form>
+
+    <!-- Div of cat memes -->
+    <div id="images-container">
+
+    </div>
+
+    <!-- 8-bit cat gif -->
+    <div id="cat-square"></div>
+
+  </body>
+</html>
