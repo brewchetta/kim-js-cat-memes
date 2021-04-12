@@ -2,20 +2,6 @@
   font-family: 'Syne Mono', monospace;
 }
 
-#cat-square {
-  background-image: url("https://i.pinimg.com/originals/f3/cc/f7/f3ccf75f1883faea777a00f351c5dc60.gif");
-  background-position: center;
-  background-size: cover;
-  /* background-color: #aaaa; */
-  border: solid black 2px;
-  border-radius: 10px;
-  height: 100px;
-  right: 100px;
-  position: fixed;
-  top: 100px;
-  width: 100px;
-}
-
 #images-container {
   border: solid black 2px;
   display: grid;
